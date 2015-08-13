@@ -59,7 +59,7 @@ public class CoinCombo {
     }
   }
 
-String returnText= String.format("You have used %s quarter(s), %s dime(s), %s nickel(s), and %s penny/pennies. Enjoy!", quarters, dimes, nickels, pennies);
+String returnText = String.format("You have used %s quarter(s), %s dime(s), %s nickel(s), and %s penny/pennies. Enjoy!", quarters, dimes, nickels, pennies);
     //in future have way to differentiate between penny and pennies :CC
   return returnText;
   }

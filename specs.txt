@@ -1,5 +1,17 @@
 specs
 
+
+1.a.) the program correctly parses the input from a string into an integer.
+
 1.) the user enters an amount in cents, and the program returns the correct amount of quarters, dimes, nickles and pennies that make up the input amount.
 
 2.) the program always uses the smallest number of quarters, nickels, dimes and pennies that add up to the input amount.
+
+
+  // @Test
+  // public void InputStringHasCorrectOutput_istrue() { //maybe come back to this?
+  //   testCoinCombo = new coinCombo();
+  //   String testInput = "5";
+  //   String testText = "You have used 0 quarter(s), 0 dime(s), 5 nickel(s), and 0 penny/pennies. Enjoy!";
+  //   assertEquals(true, testCoinCombo.isText(testText));
+  // }
