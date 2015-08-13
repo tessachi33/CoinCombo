@@ -45,14 +45,22 @@ public class CoinCombo {
       intUserInput -= 25;
       quarters = quarters+=1;
     }
-    else{ //code doesn't know how to do this yet!!
-      break;
+    else if ( intUserInput >= 10) {
+    intUserInput -= 10;
+    dimes = dimes += 1;
     }
-
+    else if ( intUserInput >= 5) {
+    intUserInput -= 5;
+    nickels = nickels  += 1;
+    }
+    else {
+    intUserInput -= 1;
+    pennies = pennies  += 1;
+    }
   }
 
-String  returnText= "You have used: " + quarters;
-
+String returnText= String.format("You have used %s quarter(s), %s dime(s), %s nickel(s), and %s penny/pennies. Enjoy!", quarters, dimes, nickels, pennies);
+    //in future have way to differentiate between penny and pennies :CC
   return returnText;
   }
 
