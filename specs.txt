@@ -1,0 +1,5 @@
+specs
+
+1.) the user enters an amount in cents, and the program returns the correct amount of quarters, dimes, nickles and pennies that make up the input amount.
+
+2.) the program always uses the smallest number of quarters, nickels, dimes and pennies that add up to the input amount.
