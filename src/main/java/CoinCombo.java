@@ -39,11 +39,11 @@ public class CoinCombo {
 
   while ( intUserInput > 0 )
   {
-
+    //add values
     if ( intUserInput >= 25)
     {
-      intUserInput -= 25;
-      quarters = quarters+=1;
+    intUserInput -= 25;
+    quarters = quarters+=1;
     }
     else if ( intUserInput >= 10) {
     intUserInput -= 10;
