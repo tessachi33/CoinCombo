@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoinComboTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-27T23:41:18" hostname="Tessas-MacBook-Pro.local" time="0.0">
+<testsuite name="CoinComboTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-06-28T00:34:17" hostname="Tessas-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="InputStringOutputsAString_istrue" classname="CoinComboTest" time="0.0"/>
+  <testcase name="InputStringOutputsAString_istrue" classname="CoinComboTest" time="0.001"/>
   <testcase name="InputStringHasCorrectOutput_istrue" classname="CoinComboTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
