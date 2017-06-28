@@ -17,6 +17,7 @@ dependencies {
   testCompile group: 'org.fluentlenium', name: 'fluentlenium-assertj', version: '0.10.3'
 
 }
+
 task wrapper(type: Wrapper) {
     gradleVersion = '2.0'
 }
